@@ -5,3 +5,32 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.header-name{
+    text-align: center;
+    text-shadow: 1px 1px gray;
+    height: 200px;
+}
+#color-food{
+    color: rgba(255, 102, 179, 0.952);
+}
+.heading-edit{
+    font-size: 6em;
+}
+#author-name{
+    color: green;
+}
+.navbar{
+    background-color: rgba(255, 102, 179, 0.952);
+    padding: 1% 7%;
+    text-align: center;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 5px 50px;
+}
+.navbar a:hover{
+    color: rgb(54, 187, 248);
+}
