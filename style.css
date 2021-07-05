@@ -5,13 +5,16 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.food-web{
+    display: flex;
+}
 .header-name{
     text-align: center;
     text-shadow: 1px 1px gray;
     height: 200px;
 }
 #color-food{
-    color: rgba(255, 102, 179, 0.952);
+    color: #F43353;
 }
 .heading-edit{
     font-size: 6em;
@@ -20,7 +23,8 @@ body{
     color: green;
 }
 .navbar{
-    background-color: rgba(255, 102, 179, 0.952);
+    box-shadow: 10px 5px 40px rgba(128, 128, 128, 0.836);
+    background-color: #F43353;
     padding: 1% 7%;
     text-align: center;
 }
@@ -32,5 +36,26 @@ body{
     padding: 5px 50px;
 }
 .navbar a:hover{
-    color: rgb(54, 187, 248);
+    color: rgb(235, 218, 67);
+}
+.description-one{
+    width: 75%;
+    text-align: center;
+    margin: 50px 30px 0px 100px;
+    padding-top: 80px;
+}
+.description-one h1{
+    font-size: 5em;
+}
+.male-image{
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-left: 100px;
+}
+.fitness{
+    background-image: url("images/shapes/Frame\ 58.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    margin-top: 80px;
 }
