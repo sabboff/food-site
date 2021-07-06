@@ -12,6 +12,9 @@ body{
     display: flex;
 }
 .header-name{
+    background-image: url(images/shapes/bYIno-unsplash.jpg);
+    background-size: cover;
+    
     text-align: center;
     text-shadow: 1px 1px gray;
     height: 200px;
@@ -81,7 +84,6 @@ body{
 }
 .description-two{
     text-align: center justify;
-    margin-top: 70px; 
     padding: 100px;  
     margin-left: 50px;
 }
