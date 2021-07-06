@@ -8,6 +8,9 @@ body{
 .food-web{
     display: flex;
 }
+.fitness{
+    display: flex;
+}
 .header-name{
     text-align: center;
     text-shadow: 1px 1px gray;
@@ -33,22 +36,32 @@ body{
     color: white;
     font-size: 1.2em;
     font-weight: 600;
-    padding: 5px 50px;
+    padding: 5px 70px;
 }
 .navbar a:hover{
     color: rgb(235, 218, 67);
 }
 .description-one{
-    width: 75%;
-    text-align: center;
+    width: 90%;
+    text-align: left;
     margin: 50px 30px 0px 100px;
-    padding-top: 80px;
+    padding-top: 70px;
 }
 .description-one h1{
     font-size: 5em;
 }
+.link-button {
+    box-shadow: 5px 10px 20px gray;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    text-shadow: 1px 1px gray;
+    padding: 15px 25px;
+    background-image: linear-gradient(to right, #F43353,#F43353, pink);
+    border-radius: 22px;
+}
 .male-image{
-    padding-top: 50px;
+    padding-top: 70px;
     padding-right: 30px;
     padding-left: 100px;
 }
@@ -58,4 +71,79 @@ body{
     background-size: cover;
     height: 700px;
     margin-top: 80px;
+}
+.female-image{
+    width: 100%;
+}
+.female-image img{ 
+    margin-top: 150px;
+    margin-left: 220px;
+}
+.description-two{
+    text-align: center justify;
+    margin-top: 70px; 
+    padding: 100px;  
+    margin-left: 50px;
+}
+.description-two h6{
+    font-size: 1em;
+    font-weight: 400;
+}
+.recipe-description{
+    text-align: center;
+    margin: 100px;
+}
+.recipe-images{
+    display: flex;
+    margin-left: 140px;
+    margin-right: 80px;
+    margin-bottom: 100px;
+}
+.recipe-card-one{
+    width: 380px;
+    box-shadow: 10px 20px 30px gray;
+    text-align: center;
+    margin-right: 80px;
+    padding: 15px;
+    border-radius: 25px;
+}
+.recipe-card-two{
+    width: 380px;
+    box-shadow: 10px 20px 30px gray;
+    text-align: center;
+    padding: 15px;
+    border-radius: 25px;
+}
+.recipe-card-three{
+    width: 380px;
+    box-shadow: 10px 20px 30px gray;
+    text-align: center;
+    margin-left: 80px;
+    padding: 15px;
+    border-radius: 25px; 
+}
+.follower-status{
+
+    height: 200px;
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-bottom: 80px;
+    display: flex;
+    padding: 10px;
+    box-shadow:10px 20px 30px gray; 
+    border-radius: 20px;
+}
+.width-alignment-one{
+    text-align: center;
+    width: 380px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.footer-design{
+    text-shadow: 2px 2px black;
+    padding: 50px 0px 10px 0px;
+    color: white;
+    text-align: center;
+    height: 200px;
+    background-image: linear-gradient(to right, rgb(54, 50, 50), black, black,rgb(54, 50, 50));
 }
