@@ -54,13 +54,14 @@ body{
     font-size: 5em;
 }
 .link-button {
-    box-shadow: 5px 10px 20px gray;
+    box-shadow: 5px 10px 30px gray;
     text-decoration: none;
     color: white;
-    font-weight: 700;
+    letter-spacing: 3px;
+    font-weight: 600;
     text-shadow: 1px 1px gray;
     padding: 15px 25px;
-    background-image: linear-gradient(to right, #F43353,#F43353, pink);
+    background-image: linear-gradient(to bottom right, #F43353,#F43353, rgb(245, 136, 154));
     border-radius: 25px;
 }
 .male-image{
